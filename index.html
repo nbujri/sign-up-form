@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="background">
+        <img
+          src="./images/maxime-renard-BAnJZUPVOis-unsplash.jpg"
+          alt="Red Bull F1 Car"
+        />
+        <img src="./images/formula-1-logo-2-2.png" alt="F1 Logo" />
+      </div>
+    </div>
+    <div class="right">
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. In maiores
+          dolore eius temporibus. Eos velit nobis maiores repellendus corporis
+          eius voluptatem aliquam doloribus architecto voluptates qui, accusamus
+          ducimus temporibus, fuga esse! Assumenda perspiciatis placeat quo
+          tempore neque eligendi totam quae molestias porro minus, alias hic ut
+          perferendis nisi, non et!
+        </p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <form action="#">
+        <h2>Lorem, ipsum dolor!</h2>
+        <div class="fields">
+          <div>
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" />
+          </div>
+          <div>
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" />
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">PHONE NUMBER</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            />
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div>
+            <label for="c-password">CONFIRM PASSWORD</label>
+            <input type="password" name="c-password" id="c-password" required />
+          </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
+    </div>
+  </body>
+</html>
